@@ -1,0 +1,9 @@
+.idea/
+bower_components/
+node_modules/
+other/
+www/fonts/
+www/css/
+www/js/
+!/www/js/speex.js
+www/index.html
