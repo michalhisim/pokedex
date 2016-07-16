@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pokedex</title>
+    <meta name="description" content="Pokedex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,300,300italic,400,500,500italic,400italic,700,700italic,900,900italic&amp;subset=latin-ext,latin"
+          rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/style-main.css">
+</head>
+<body>
+<div class="page">
+    <div class="content">
+        <div class="pokedex">
+            <div class="pokedex__body">
+                <div class="body__top">
+                    <span class="signal-status">
+                        <span class="signal-status__value" id="signal-status"></span>
+                    </span>
+                </div>
+                <div class="body__content">
+                    <div class="result">
+                        <pre class="result__question" id="question"></pre>
+                        <img class="result__image" id="result-image">
+                        <pre class="result__text" id="results">Try to ask: How tall is Pikachu?</pre>
+                    </div>
+                    <a class="btn btn--main" id="ask-pokedex">Press and hold to ask Pokedex!</a>
+                    <form class="hidden-xs-up" id="search-form">
+                        <input type="text" id="pokemon">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+            <div class="pokedex__cover">
+                <h1 class="pokedex__title">Pokedex</h1>
+            </div>
+            <div class="pokedex__inner">
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-xs-center">
+        Created with love to Pokemons.
+    </footer>
+</div>
+<script src="js/speex.js"></script>
+<script src="js/app-main.js"></script>
+</body>
+</html>
