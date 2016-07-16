@@ -1,0 +1,63 @@
+.box {
+  background: $color-white;
+  border: 1px solid $gray-lightest;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  min-height: 14.3rem;
+}
+
+.box__title {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  text-transform: uppercase;
+
+  small {
+    color: $gray-light;
+  }
+}
+
+.box__inner {
+  padding: 1rem;
+}
+
+.box__footer {
+  border-top: 1px solid $gray-lighter;
+  padding: 1rem;
+}
+
+.value--lg {
+  font-size: 3.5rem;
+}
+
+.value--bold {
+  font-weight: 700;
+}
+
+.progress__row {
+  @extend .row;
+}
+
+.progress {
+  @extend .col-xs-8;
+  @include progress-variant($color-primary);
+
+  height: .3rem;
+  margin-bottom: 0;
+  margin-top: .6rem;
+  width: 60%;
+}
+
+.progress__title {
+  @extend .col-xs-2;
+
+  width: 20%;
+}
+
+.progress__value {
+  @extend .col-xs-2;
+
+  font-weight: 700;
+  text-align: center;
+  width: 20%;
+}
